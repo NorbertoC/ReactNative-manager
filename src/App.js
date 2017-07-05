@@ -5,16 +5,8 @@ import { Provider } from 'react-redux';
 import reducers from './reducers';
 import firebase from 'firebase';
 import LoginForm from './components/LoginForm';
-import { StackNavigator } from 'react-navigation';
-
 
 class App extends Component {
-
-  static navigationOptions = {
-    title: 'Welcome',
-    header: null
-  };
-
   componentWillMount() {
     const config = {
       apiKey: 'AIzaSyByP6vWKDUiLQdU1-cwHUKH7lRikSaZ50Q',
